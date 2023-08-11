@@ -1,0 +1,72 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../images/v960-ning-30.jpg);
+}
+
+
+.template{
+   margin: auto;
+    position: relative;
+    border-radius: 20px;
+    border:3px solid rgb(0, 0, 0);
+    overflow: hidden;
+    width: 20%;
+    padding: 20px;
+    margin-top: 15px;
+    height: auto;
+}
+.f_name{
+    margin: auto;
+    width: 10%;
+    background: transparent;
+    margin-top: 10px;
+}
+.user_id{
+    position : absolute;
+    top: 3%;
+    left: 85%;
+        border-radius: 50%;
+        width: 40px;
+        height: auto;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.629);
+        /* border: 3px solid #00000000; */
+        color: #ffffff;
+        text-align: center;
+        font: 20px Arial, sans-serif;
+}
+
+.search_inputContainer{
+    margin: auto;
+    margin-top:20px ;
+    width: 40vh;
+    max-width: 700px;
+    background:rgba(8, 6, 6, 0);
+    display: flex;
+    height: auto;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.user_image{
+    margin: auto;
+    margin-left: 50%;
+    filter: drop-shadow(16px 16px 8px rgba(0, 0, 0, 0.843));
+}
+#searchInput{
+    background:transparent;
+    flex: 1;
+    border: 0;
+    
+    outline: none;
+    padding: 14px 10px;
+    font-size: 22px;
+    color: #000000;
+}
+.search-button{
+    width: 25px;
+}
+
